@@ -1,18 +1,18 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import Home from './component/Home'
-import style from './component/Style.css'
-// import Person from './Component/Person';
+import Counter from './Component/Counter';
+import Data from './Component/Data';
+import Home from './Component/Home';
+import Button from './Component/Button';
 
 function App() {
   return (
-    
-
-  <Home /> 
-
-
-    
-   
+    <>
+   <Counter/>
+   <Data/>
+  <Home/>
+  <Button/>
+    </>
   );
 }
 
